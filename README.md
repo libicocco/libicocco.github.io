@@ -1,19 +1,12 @@
-# Javier Romero — personal research website
+# Changelog
 
-A dependency-free static portfolio built from Javier's July 2025 CV and Google Scholar profile. It includes selected visual highlights plus 74 reviewed, non-patent Scholar records in reverse chronological order.
+## 2026-09-22
 
-## Preview locally
-
-```sh
-python3 -m http.server 8080
-```
-
-Then open `http://localhost:8080`.
-
-## Deploy
-
-The folder can be published directly with GitHub Pages, Netlify, Vercel, or any static host. The site has no build step.
-
-Publication previews are rendered from the corresponding paper PDFs. Records whose PDFs are not publicly retrievable are marked as unavailable instead of receiving synthetic artwork. Each publication includes PDF, Scholar, and downloadable BibTeX links where available.
-
-The Scholar source snapshots can be parsed again with `scripts/parse_scholar.py` when the bibliography needs refreshing. Titles in `excluded-publications.txt` are omitted when `scripts/build_publication_data.py` regenerates the site data.
+- Removed the final undated record, “3.13 Deep Learning from Unstructured, Uncalibrated Views.”
+- Removed the 15 publications marked for exclusion; the bibliography now contains 74 records.
+- Added a visual year grid with teaser previews on hover and expandable publication lists.
+- Increased typography by approximately 20% and reduced the space before the About section.
+- Reprocessed available publication PDFs to favor figure-focused teaser images.
+- Added per-publication PDF, Scholar, and downloadable BibTeX links.
+- Added downloadable full CV and bibliography files.
+- Updated the biography and selected publications from the latest CV.
