@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Javier Romero is a research scientist working at the intersection of computer vision and graphics, with a focus on digital humans, body models, and photorealistic avatars."
+    />
+    <meta name="theme-color" content="#f4f1ea" />
+    <title>Javier Romero — Research Scientist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Javier Romero, home">JR<span>·</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#cv">CV</a>
+        <a href="mailto:javierromero1@meta.com">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Research scientist · Madrid</p>
+          <h1 id="hero-title">Making digital humans feel <em>human.</em></h1>
+          <p class="hero-intro">
+            I work at the intersection of computer vision and graphics—building models that
+            understand human shape and motion, and turn them into compelling visual experiences.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#research">Explore research</a>
+            <a class="button button-quiet" href="vitae.pdf" target="_blank" rel="noopener">
+              Download CV <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+
+        <figure class="portrait reveal">
+          <img src="assets/images/javier-romero.jpg" alt="Portrait of Javier Romero" width="256" height="256" />
+          <figcaption>Javier Romero<br /><span>Madrid, Spain</span></figcaption>
+        </figure>
+      </section>
+
+      <section class="about section" id="about" aria-labelledby="about-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About</p>
+          <h2 id="about-title">Research that moves between pixels and people.</h2>
+        </div>
+        <div class="about-copy reveal">
+          <p>
+            I am a Research Scientist Lead at Meta, where I work on human data collection and
+            modeling toward VR communication that is indistinguishable from reality. For more
+            than fifteen years, my research has explored how computers perceive, reconstruct,
+            and generate people.
+          </p>
+          <p>
+            My academic work helped establish influential parametric models of the body, face,
+            and hands—including <a href="https://smpl.is.tue.mpg.de/" target="_blank" rel="noopener">SMPL</a>,
+            <a href="https://flame.is.tue.mpg.de/" target="_blank" rel="noopener">FLAME</a>, and
+            <a href="https://mano.is.tue.mpg.de/" target="_blank" rel="noopener">MANO</a>, and
+            <a href="https://arxiv.org/abs/2511.15586" target="_blank" rel="noopener">MHR</a>. In industry,
+            I have led and contributed to work spanning personalized garments, fitness, new shopping
+            experiences, and photorealistic avatars.
+          </p>
+          <div class="facts" aria-label="Career highlights">
+            <div><strong>15+</strong><span>years in human modeling</span></div>
+            <div><strong>4</strong><span>foundational human models</span></div>
+            <div><strong>CV + CG</strong><span>research at the intersection</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="research section" id="research" aria-labelledby="research-title">
+        <div class="section-top reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Research highlights</p>
+            <h2 id="research-title">Models, methods, and virtual people.</h2>
+          </div>
+          <div class="section-actions">
+            <a class="text-link" href="vitae.bib" download>Download all BibTeX <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="https://scholar.google.com/citations?user=Wx62iOsAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+              Google Scholar <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="filters reveal" role="group" aria-label="Filter publications">
+          <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter" type="button" data-filter="avatars" aria-pressed="false">Avatars</button>
+          <button class="filter" type="button" data-filter="models" aria-pressed="false">Human models</button>
+          <button class="filter" type="button" data-filter="perception" aria-pressed="false">Perception</button>
+        </div>
+
+        <div class="publication-grid">
+          <article class="publication publication-featured reveal" data-category="perception avatars">
+            <a class="publication-image" href="https://arxiv.org/abs/2604.20715" target="_blank" rel="noopener" aria-label="Open GeoRelight paper">
+              <img src="assets/images/georelight.webp" alt="GeoRelight teaser showing people reconstructed under varied illumination" width="1000" height="500" />
+              <span class="image-index">01</span>
+            </a>
+            <div class="publication-body">
+              <p class="paper-meta">CVPR · 2026 · Relighting</p>
+              <h3><a href="https://arxiv.org/abs/2604.20715" target="_blank" rel="noopener">GeoRelight</a></h3>
+              <p>Joint geometry-aware relighting and reconstruction with flexible multi-modal diffusion transformers.</p>
+              <p class="authors">Yuxuan Xue, Ruofan Liang, Egor Zakharov, et al.</p>
+              <a class="paper-link" href="https://arxiv.org/abs/2604.20715" target="_blank" rel="noopener">Paper <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="publication publication-featured reveal" data-category="models">
+            <a class="publication-image" href="https://arxiv.org/abs/2508.15767" target="_blank" rel="noopener" aria-label="Open ATLAS paper">
+              <img src="assets/images/atlas.webp" alt="ATLAS teaser comparing expressive parametric human models" width="1000" height="500" />
+              <span class="image-index">02</span>
+            </a>
+            <div class="publication-body">
+              <p class="paper-meta">ICCV · 2025 · Human models</p>
+              <h3><a href="https://arxiv.org/abs/2508.15767" target="_blank" rel="noopener">ATLAS</a></h3>
+              <p>Decoupling skeletal and shape parameters for expressive parametric human modeling.</p>
+              <p class="authors">Jinhyung Park, <strong>Javier Romero</strong>, Shunsuke Saito, et al.</p>
+              <a class="paper-link" href="https://arxiv.org/abs/2508.15767" target="_blank" rel="noopener">Paper <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="publication reveal" data-category="avatars">
+            <a class="publication-image" href="https://arxiv.org/abs/2502.20220" target="_blank" rel="noopener" aria-label="Open Avat3r paper">
+              <img src="assets/images/avat3r.webp" alt="Avat3r teaser showing high-fidelity reconstructed head avatars" width="1000" height="500" loading="lazy" />
+              <span class="image-index">03</span>
+            </a>
+            <div class="publication-body">
+              <p class="paper-meta">ICCV · 2025 · Avatars</p>
+              <h3><a href="https://arxiv.org/abs/2502.20220" target="_blank" rel="noopener">Avat3r</a></h3>
+              <p>Large animatable Gaussian reconstruction for high-fidelity 3D head avatars.</p>
+              <p class="authors">Tobias Kirschstein, <strong>Javier Romero</strong>, Artem Sevastopolsky, et al.</p>
+              <a class="paper-link" href="https://arxiv.org/abs/2502.20220" target="_blank" rel="noopener">Paper <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="publication reveal" data-category="avatars">
+            <a class="publication-image" href="https://arxiv.org/abs/2311.08581" target="_blank" rel="noopener" aria-label="Open Drivable 3D Gaussian Avatars paper">
+              <img src="assets/images/drivable-gaussian-avatars.webp" alt="Paper teaser showing a sequence of expressive controllable 3D avatars" width="1000" height="500" loading="lazy" />
+              <span class="image-index">04</span>
+            </a>
+            <div class="publication-body">
+              <p class="paper-meta">3DV · 2025 · Avatars</p>
+              <h3><a href="https://arxiv.org/abs/2311.08581" target="_blank" rel="noopener">Drivable 3D Gaussian Avatars</a></h3>
+              <p>Controllable, high-fidelity human avatars represented with 3D Gaussian splats.</p>
+              <p class="authors">Wojciech Zielonka, Timur Bagautdinov, Shunsuke Saito, et al.</p>
+              <a class="paper-link" href="https://arxiv.org/abs/2311.08581" target="_blank" rel="noopener">Paper <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="publication reveal" data-category="avatars models">
+            <a class="publication-image" href="https://arxiv.org/abs/2008.06872" target="_blank" rel="noopener" aria-label="Open SMPLpix paper">
+              <img src="assets/images/smplpix.webp" alt="SMPLpix pipeline from body model and camera inputs to neural avatar rendering" width="1000" height="500" loading="lazy" />
+              <span class="image-index">05</span>
+            </a>
+            <div class="publication-body">
+              <p class="paper-meta">WACV · 2021</p>
+              <h3><a href="https://arxiv.org/abs/2008.06872" target="_blank" rel="noopener">SMPLpix</a></h3>
+              <p>Neural avatars built from a compact 3D human model and sparse posed images.</p>
+              <p class="authors">Sergey Prokudin, Michael J. Black, <strong>Javier Romero</strong></p>
+              <a class="paper-link" href="https://arxiv.org/abs/2008.06872" target="_blank" rel="noopener">Paper <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="publication reveal" data-category="perception models">
+            <a class="publication-image" href="https://arxiv.org/abs/1909.00883" target="_blank" rel="noopener" aria-label="Open FACSIMILE paper">
+              <img src="assets/images/facsimile.webp" alt="FACSIMILE teaser showing a person reconstructed as a detailed 3D body scan" width="1000" height="500" loading="lazy" />
+              <span class="image-index">06</span>
+            </a>
+            <div class="publication-body">
+              <p class="paper-meta">ICCV · 2019</p>
+              <h3><a href="https://arxiv.org/abs/1909.00883" target="_blank" rel="noopener">FACSIMILE</a></h3>
+              <p>Fast, accurate, textured 3D scans of a person from a single image.</p>
+              <p class="authors">David Smith, Matthew Loper, Xiaochen Hu, et al.</p>
+              <a class="paper-link" href="https://arxiv.org/abs/1909.00883" target="_blank" rel="noopener">Paper <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="publication reveal" data-category="models">
+            <a class="publication-image" href="https://mano.is.tue.mpg.de/" target="_blank" rel="noopener" aria-label="Open MANO project page">
+              <img src="assets/images/mano.webp" alt="MANO paper teaser showing articulated 3D hand and body models" width="1000" height="500" loading="lazy" />
+              <span class="image-index">07</span>
+            </a>
+            <div class="publication-body">
+              <p class="paper-meta">SIGGRAPH Asia · 2017</p>
+              <h3><a href="https://mano.is.tue.mpg.de/" target="_blank" rel="noopener">Embodied Hands / MANO</a></h3>
+              <p>A learned model for capturing and representing expressive hands together with the body.</p>
+              <p class="authors"><strong>Javier Romero</strong>, Dimitrios Tzionas, Michael J. Black</p>
+              <a class="paper-link" href="https://arxiv.org/abs/2201.02610" target="_blank" rel="noopener">Paper <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="publication reveal" data-category="perception">
+            <a class="publication-image" href="https://arxiv.org/abs/1701.01370" target="_blank" rel="noopener" aria-label="Open Learning from Synthetic Humans paper">
+              <img src="assets/images/surreal.webp" alt="Synthetic human data pipeline with 3D pose, segmentation, depth, and optical flow outputs" width="1000" height="500" loading="lazy" />
+              <span class="image-index">08</span>
+            </a>
+            <div class="publication-body">
+              <p class="paper-meta">CVPR · 2017</p>
+              <h3><a href="https://arxiv.org/abs/1701.01370" target="_blank" rel="noopener">Learning from Synthetic Humans</a></h3>
+              <p>SURREAL: synthetic people at scale for learning human depth and part segmentation.</p>
+              <p class="authors">Gül Varol, <strong>Javier Romero</strong>, Xavier Martin, et al.</p>
+              <a class="paper-link" href="https://arxiv.org/abs/1701.01370" target="_blank" rel="noopener">Paper <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="publication reveal" data-category="models">
+            <a class="publication-image" href="https://flame.is.tue.mpg.de/" target="_blank" rel="noopener" aria-label="Open FLAME project page">
+              <img src="assets/images/flame.webp" alt="FLAME teaser showing expressive parametric 3D face models" width="1000" height="500" loading="lazy" />
+              <span class="image-index">09</span>
+            </a>
+            <div class="publication-body">
+              <p class="paper-meta">SIGGRAPH Asia · 2017 · Human models</p>
+              <h3><a href="https://flame.is.tue.mpg.de/" target="_blank" rel="noopener">FLAME</a></h3>
+              <p>A model of facial shape and expression learned from expressive 4D scans.</p>
+              <p class="authors">Tianye Li, Timo Bolkart, Michael J. Black, Hao Li, <strong>Javier Romero</strong></p>
+              <a class="paper-link" href="https://3dvar.com/Li2017Learning.pdf" target="_blank" rel="noopener">Paper <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="publication reveal" data-category="perception">
+            <a class="publication-image" href="https://ieeexplore.ieee.org/document/7243327" target="_blank" rel="noopener" aria-label="Open The GRASP Taxonomy of Human Grasp Types paper">
+              <img src="assets/images/grasp-taxonomy.webp" alt="GRASP taxonomy teaser showing diagrams of human grasp types" width="1000" height="500" loading="lazy" />
+              <span class="image-index">10</span>
+            </a>
+            <div class="publication-body">
+              <p class="paper-meta">IEEE THMS · 2016 · Perception</p>
+              <h3><a href="https://ieeexplore.ieee.org/document/7243327" target="_blank" rel="noopener">The GRASP Taxonomy</a></h3>
+              <p>A systematic taxonomy that organizes the breadth of human grasp types.</p>
+              <p class="authors">Thomas Feix, <strong>Javier Romero</strong>, Heinz-Bodo Schmiedmayer, et al.</p>
+              <a class="paper-link" href="https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf" target="_blank" rel="noopener">Paper <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="publication reveal" data-category="perception models">
+            <a class="publication-image" href="https://smplify.is.tue.mpg.de/" target="_blank" rel="noopener" aria-label="Open Keep it SMPL project page">
+              <img src="assets/images/keep-it-smpl.webp" alt="Keep it SMPL teaser showing 3D human pose and shape reconstruction from photographs" width="1000" height="500" loading="lazy" />
+              <span class="image-index">11</span>
+            </a>
+            <div class="publication-body">
+              <p class="paper-meta">ECCV · 2016 · Perception</p>
+              <h3><a href="https://smplify.is.tue.mpg.de/" target="_blank" rel="noopener">Keep it SMPL</a></h3>
+              <p>Automatic estimation of 3D human pose and shape from a single image.</p>
+              <p class="authors">Federica Bogo, Angjoo Kanazawa, Christoph Lassner, et al.</p>
+              <a class="paper-link" href="https://smplify.is.tue.mpg.de/" target="_blank" rel="noopener">Project <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="publication reveal" data-category="models">
+            <a class="publication-image" href="https://smpl.is.tue.mpg.de/" target="_blank" rel="noopener" aria-label="Open SMPL project page">
+              <img src="assets/images/smpl.webp" alt="SMPL paper teaser showing a family of realistic posed 3D human body models" width="1000" height="500" loading="lazy" />
+              <span class="image-index">12</span>
+            </a>
+            <div class="publication-body">
+              <p class="paper-meta">SIGGRAPH Asia · 2015</p>
+              <h3><a href="https://smpl.is.tue.mpg.de/" target="_blank" rel="noopener">SMPL</a></h3>
+              <p>A learned, skinned, pose-aware model that made realistic 3D bodies practical to animate.</p>
+              <p class="authors">Matthew Loper, Naureen Mahmood, <strong>Javier Romero</strong>, et al.</p>
+              <a class="paper-link" href="https://smpl.is.tue.mpg.de/" target="_blank" rel="noopener">Project <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+
+        <section class="all-publications" aria-labelledby="all-publications-title">
+          <div class="publication-list-heading reveal">
+            <div>
+              <p class="eyebrow">Complete bibliography</p>
+              <h2 id="all-publications-title">All publications</h2>
+            </div>
+            <p><span id="publication-count">75</span> records · newest first · select a year</p>
+          </div>
+          <div class="publication-search reveal">
+            <label for="publication-query">Search the bibliography</label>
+            <input id="publication-query" type="search" placeholder="Title, author, venue, or year…" autocomplete="off" />
+          </div>
+          <div id="publication-list" class="publication-list" aria-live="polite"></div>
+          <p id="publication-empty" class="publication-empty" hidden>No publications match that search.</p>
+        </section>
+      </section>
+
+      <section class="cv section" id="cv" aria-labelledby="cv-title">
+        <div class="cv-panel reveal">
+          <div>
+            <p class="eyebrow">Curriculum vitae</p>
+            <h2 id="cv-title">A career in human-centered vision and graphics.</h2>
+            <p class="cv-intro">Research leadership across Meta, Amazon, Body Labs, and the Max Planck Institute for Intelligent Systems.</p>
+            <a class="button button-light" href="vitae.pdf" target="_blank" rel="noopener">Open full CV <span aria-hidden="true">↗</span></a>
+          </div>
+          <ol class="timeline">
+            <li><span>2021—now</span><strong>Meta</strong><small>Research Scientist Lead · Madrid</small></li>
+            <li><span>2017—2021</span><strong>Amazon / Body Labs</strong><small>Principal &amp; Senior Applied Scientist · Barcelona</small></li>
+            <li><span>2012—2017</span><strong>Max Planck Institute</strong><small>Research Scientist &amp; Postdoctoral Researcher · Tübingen</small></li>
+            <li><span>2007—2011</span><strong>KTH Royal Institute of Technology</strong><small>PhD in Computer Science · Stockholm</small></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="contact section" aria-labelledby="contact-title">
+        <p class="eyebrow reveal">Get in touch</p>
+        <h2 id="contact-title" class="reveal">Ideas are better<br />in conversation.</h2>
+        <div class="contact-links reveal">
+          <a href="mailto:javierromero1@meta.com">javierromero1@meta.com <span aria-hidden="true">↗</span></a>
+          <a href="https://www.linkedin.com/in/javier-romero-38b87331/" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+          <a href="https://scholar.google.com/citations?user=Wx62iOsAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year">2026</span> Javier Romero</p>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+
+    <script src="publications-data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
