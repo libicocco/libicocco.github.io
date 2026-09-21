@@ -1,6 +1,6 @@
 # Javier Romero — personal research website
 
-A dependency-free static portfolio built from Javier's July 2025 CV and Google Scholar profile. It includes selected visual highlights plus 75 reviewed, non-patent Scholar records in reverse chronological order.
+A dependency-free static portfolio built from Javier's July 2025 CV and Google Scholar profile. It includes selected visual highlights plus 74 reviewed, non-patent Scholar records in reverse chronological order.
 
 ## Preview locally
 

@@ -939,16 +939,5 @@ window.PUBLICATIONS = [
     "paper_url": "https://scholar.google.com/scholar?cluster=3719100589662114744&hl=en&oi=scholarr",
     "bib": "assets/bib/romero2007BinocularHandTrackingAnd.bib",
     "cv_bib": false
-  },
-  {
-    "title": "3.13 Deep Learning from Unstructured, Uncalibrated Views",
-    "authors": "J Romero",
-    "venue": "3D Morphable Models, 28, 0",
-    "year": "",
-    "citations": "",
-    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Wx62iOsAAAAJ&pagesize=100&citation_for_view=Wx62iOsAAAAJ:tKAzc9rXhukC",
-    "paper_url": "https://d-nb.info/1365183726/34#page=13",
-    "bib": "assets/bib/romerond313DeepLearning.bib",
-    "cv_bib": false
   }
 ];
